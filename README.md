@@ -22,7 +22,7 @@ Project finished.
 Setting up Dev:
 Here's a brief intro about what a developer must do in order to start developing the project further:
 
-git clone https://github.com/your/your-project.git
+git clone https://github.com/zafra89/Chingu-Solo-Project-Tier-1
 cd your-project/
 packagemanager install
 Licensing
