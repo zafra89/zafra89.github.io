@@ -14,7 +14,7 @@ $ npm start
 
 
 Developed using:
-Html, Css And Vanilla Javascript.
+Html, Css and Vanilla Javascript.
 
 Status:
 Project finished.
