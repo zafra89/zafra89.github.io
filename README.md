@@ -25,7 +25,7 @@ Project finished.
 *Setting up Dev:*
 Here's a brief intro about what a developer must do in order to start developing the project further:
 
-git clone https://github.com/zafra89/Chingu-Solo-Project-Tier-1
+git clone https://github.com/zafra89/zafra89.github.io
 cd your-project/
 packagemanager install
 Licensing
