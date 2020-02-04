@@ -98,7 +98,7 @@ function searchFunction() {
   }
 
   function resetInputs() {
-      const searchBar = document.getElementById('search-bar').remove();
-      const typeText = document.getElementById('cloneSource').value;
+      const searchBar = document.getElementById('search-bar').value='';
+      const typeText = document.getElementById('cloneSource').value='';
       const sizeSelection = document.getElementById('select-size').value;
   }
