@@ -7,9 +7,9 @@ This is the tier 1 Chingu solo project where you can see some fonts, search betw
 Setup:
 To run this project, install it locally using npm:
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+cd ../name of the file
+npm install
+npm start
 ```
 
 
