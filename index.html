@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'>
+        <nav id='navbar' class='navbar'>
+                <img id="googlelogo" src="http://imgfz.com/i/ts1dflw.jpeg" height="60" width="170">
+                <div id='links'>
+                    <a class='others' href='https://www.google.com' target="_blank">Catalog</a>
+                    <a class='others' href='https://www.google.com' target="_blank">Featured</a>
+                    <a class='others' href='https://www.google.com' target="_blank">Articles</a>
+                    <a class='others' href='https://www.google.com' target="_blank">About</a><br><br><br>
+                </div>
+        </nav><hr><br>
+        <div id='second-bar' class='second-bar'>
+            <input type='text' id='search-bar' class='searchbar' onkeyup="searchFunction()"  placeholder='Search Fonts'>
+            <input id='cloneSource' type='text' placeholder='Type Something'>
+            <select id='select-size' class='size' onchange='sizeChange()'>
+                <option value='20'>20px</option>
+                <option value='25'>25px</option>
+                <option value='30'>30px</option>
+                <option value='35'>35px</option>
+                <option value='40'>40px</option>
+            </select>
+            <input type='reset' id='reset-button' value='Reset' onclick='resetInputs()'>
+        </div><br>
+    </head>
+    <body>
+        <script type="text/javascript" src="app.js"></script>
+        <main>
+            <div id='columns'>
+                <div class='font-cards'>
+                    <h3 class='fontname'>Roboto <button id='addbutton'>+</button></h3>
+                    <p class='fontauthor'>Christian Robertson</p>
+                    <textarea id='textarea' class='roboto' placeholder='Then Came the night of the first falling star.'></textarea>
+                </div>
+                <div class='font-cards'>
+                    <h3 class='fontname'>Gayathri <button id='addbutton'>+</button></h3>
+                    <p class='fontauthor'>SMC</p>
+                    <textarea id='textarea1' class='gayathri' placeholder='Then Came the night of the first falling star.'></textarea>
+                </div>
+                <div class='font-cards'>
+                    <h3 class='fontname'>Chilanka <button id='addbutton'>+</button></h3>
+                    <p class='fontauthor'>SMC</p>
+                    <textarea id='textarea2' class='chilanka' placeholder='Then Came the night of the first falling star.'></textarea>
+                </div>
+                <div class='font-cards'>
+                    <h3 class='fontname'>Open Sans <button id='addbutton'>+</button></h3>
+                    <p class='fontauthor'>Steve Matteson</p>
+                    <textarea id='textarea3' class='opensans' placeholder='Then Came the night of the first falling star.'></textarea>
+                </div>
+                <div class='font-cards'>
+                    <h3 class='fontname'>Lato <button id='addbutton'>+</button></h3>
+                    <p class='fontauthor'>Lukasz Dziedzic</p>
+                    <textarea id='textarea4' class='lato' placeholder='Then Came the night of the first falling star.'></textarea>
+                </div>
+                <div class='font-cards'>
+                    <h3 class='fontname'>Manjari <button id='addbutton'>+</button></h3>
+                    <p class='fontauthor'>Santosh Thottingal</p>
+                    <textarea id='textarea5' class='manjari' placeholder='Then Came the night of the first falling star.'></textarea>
+                </div>
+                <div class='font-cards'>
+                    <h3 class='fontname'>Montserrat <button id='addbutton'>+</button></h3>
+                    <p class='fontauthor'>Julieta Ulanovsky</p>
+                    <textarea id='textarea6' class='montserrat' placeholder='Then Came the night of the first falling star.'></textarea>
+                </div>
+                <div class='font-cards'>
+                    <h3 class='fontname'>Roboto Condensed <button id='addbutton'>+</button></h3>
+                    <p class='fontauthor'>Christian Robertson</p>
+                    <textarea id='textarea7' class='robotocondensed' placeholder='Then Came the night of the first falling star.'></textarea>
+                </div>
+            </div>
+        </main>
+    </body><br><br>
+    <footer>
+        <div id='footer'>
+            <p id='footer-text'>Coded by José Luis | 2020 | Chingu Pre-Work Project</p>
+        </div>
+    </footer>
+</html>
