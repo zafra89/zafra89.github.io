@@ -1,4 +1,4 @@
-#CHINGU SOLO PROJECT - TIER 1- FAV FONTS
+**CHINGU SOLO PROJECT - TIER 1- FAV FONTS**
 
 Description:
 This is the tier 1 Chingu solo project where you can see some fonts, search between them, type whatever text you want, see it in its own font style, choose the size and also reset the search, typing and sizing.
@@ -6,11 +6,11 @@ This is the tier 1 Chingu solo project where you can see some fonts, search betw
 
 Setup:
 To run this project, install it locally using npm:
-
+```
 $ cd ../lorem
 $ npm install
 $ npm start
-
+```
 
 
 Developed using:
