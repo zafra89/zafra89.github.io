@@ -15,6 +15,7 @@ This is the tier 1 Chingu solo project where you can see some fonts, search betw
 4 -> Go to your browser and type localhost:8080. Your Application should run there.
 
 
+
 *Developed using:*
 Html, CSS and Vanilla Javascript.
 
