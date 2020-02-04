@@ -5,11 +5,14 @@ This is the tier 1 Chingu solo project where you can see some fonts, search betw
 
 
 *Setup:*
-To run this project, download it and then run it locally using npm:
-```
-cd/name of the file
-npm start
-```
+
+1 -> Have Node.js installed in your system.
+
+2 -> In CMD, run the command ```npm install http-server -g```
+
+3 -> Navigate to the specific path of your file folder in CMD and run the command ```http-server```
+
+4 -> Go to your browser and type localhost:8080. Your Application should run there.
 
 
 *Developed using:*
