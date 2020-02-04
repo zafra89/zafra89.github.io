@@ -5,10 +5,9 @@ This is the tier 1 Chingu solo project where you can see some fonts, search betw
 
 
 *Setup:*
-To run this project, install it locally using npm:
+To run this project, download it and the run locally using npm:
 ```
 cd ../name of the file
-npm install
 npm start
 ```
 
