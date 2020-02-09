@@ -15,15 +15,15 @@
         </nav><hr><br>
         <div id='second-bar' class='second-bar'>
             <input type='text' id='search-bar' class='searchbar' onkeyup='searchFunction()' placeholder='Search Fonts'>
-            <input id='cloneSource' type='text' placeholder='Type Something'>
+            <input id='cloneSource' type='text' placeholder='Type Something' onkeyup='cloneFunction()'>
             <select id='select-size' class='size' onchange='sizeChange()'>
-                <option value='20'>20px</option>
-                <option value='25'>25px</option>
-                <option value='30'>30px</option>
-                <option value='35'>35px</option>
-                <option value='40'>40px</option>
+                <option value='20px'>20px</option>
+                <option value='25px'>25px</option>
+                <option value='30px'>30px</option>
+                <option value='35px'>35px</option>
+                <option value='40px'>40px</option>
             </select>
-            <input type='button' onclick='resetInputs()' id='reset-button' value='Reset'>
+            <input type='button' id='reset-button' value='Reset'>
         </div><br>
     </head>
     <body>
