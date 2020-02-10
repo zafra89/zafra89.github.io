@@ -23,23 +23,24 @@ function searchFunction() {
     }
   }
 
-
-  function sizeChange() {
-      const text = document.querySelectorAll("textarea");
-      const size = document.getElementById("select-size");
-      size.addEventListener('click', function() {
-        text.forEach(pixels => pixels.style.fontSize = size.value)
-      });
-    };
+function sizeChange() {
+    let text = document.querySelectorAll("textarea");
+    const select = document.getElementById("select-size");
+    const option = select.options[select.selectedIndex].value;
+    select.addEventListener('click', function() {
+      text.forEach(pixels => pixels.style.fontSize = option)
+    });
+  };
 
 const textareaDefaultValue = 'Then Came the night of the first falling star.';
 document.getElementById("reset-button").addEventListener("click", function(){
-  document.querySelectorAll("textarea").forEach(reset => reset.value = textareaDefaultValue);
+  let text = document.querySelectorAll("textarea");
+  text.forEach(valueReset => valueReset.value = textareaDefaultValue);
+  text.forEach(sizeReset => sizeReset.style.fontSize = '20px');
   document.getElementById("search-bar").value='';
   document.getElementById("cloneSource").value='';
   document.getElementById("select-size").value='20px';
 
   searchFunction();
   sizeChange();
-}); 
-  
+});
